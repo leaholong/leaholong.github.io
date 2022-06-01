@@ -85,8 +85,6 @@ hr {
 .article:hover {
 	background-color: #117A65;
 	box-shadow: 0px 3px 5px #17202A;
-	transition: all 200ms;
-	transition-properties: background-color, box-shadow;
 }
 
 .article .title {
@@ -141,12 +139,6 @@ h2 {
 .single-content img {
 	width: 100%;
 	height: auto;
-	transition: box-shadow 200ms;
-}
-
-.single-content img:hover {
-	box-shadow: 0px 3px 5px #17202A;
-	transition: box-shadow 200ms;
 }
 
 .collections {
@@ -174,8 +166,6 @@ h2 {
 .collections div:hover {
 	background-color: #117A65;
 	box-shadow: 0px 3px 5px #17202A;
-	transition: all 200ms;
-	transition-properties: background-color, box-shadow;
 }
 
 .collections a {
