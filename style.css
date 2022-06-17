@@ -141,14 +141,6 @@ h2 {
 	height: auto;
 }
 
-.all {
-	text-align: center;
-	font-size: 20px;
-	user-select: none;
-	text-decoration: none;
-	color: #EAECEE;
-}
-
 @media only screen and (max-width: 600px) {
 	h1 {
 		font-size: 36px;
