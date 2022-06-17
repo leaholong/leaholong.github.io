@@ -141,46 +141,6 @@ h2 {
 	height: auto;
 }
 
-.collections {
-	width: 960px;
-	height: 400px;
-	margin: 0 auto;
-	display: grid;
-	align-content: space-evenly;
-	grid-template-columns: auto auto auto;
-	gap: 30px;
-}
-
-.collections div {
-	display: inline-block;
-	width: 300px;
-	height: 400px;
-	background-color: #34495E;
-	border-radius: 32px;
-	overflow: hidden;
-	transition: all 200ms;
-	transition-properties: background-color, box-shadow;
-	cursor: pointer;
-}
-
-.collections div:hover {
-	background-color: #117A65;
-	box-shadow: 0px 3px 5px #17202A;
-}
-
-.collections a {
-	text-align: center;
-	font-size: 24px;
-	user-select: none;
-	text-decoration: none;
-	color: #EAECEE;
-}
-
-.collections img {
-	width: 300px;
-	height: 300px;
-}
-
 .all {
 	text-align: center;
 	font-size: 20px;
@@ -202,11 +162,5 @@ h2 {
 	.article .date {
 		float: left;
 		margin: 0 0 8px 28px;
-	}
-	.collections {
-		width: 300px;
-		height: 100%;
-		display: grid;
-		grid-template-columns: none;
 	}
 }
