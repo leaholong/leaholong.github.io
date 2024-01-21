@@ -122,6 +122,32 @@ h2 {
 	color: #333333;
 }
 
-.buttondown {
+.icon {
 	height: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+	.essay img {
+		width: 288px;
+		height: 288px;
+		filter: brightness(80%);
+	}
+	.article {
+		line-height: 14px;
+	}
+	.article-img {
+		display: none;
+	}
+	.title {
+		font-size: 14px;
+	}
+	.icon {
+		height: 14px;
+	}
+	.about img {
+		margin-bottom: 24px;
+	}
+	.about p {
+		width: 300px;
+	}
 }
