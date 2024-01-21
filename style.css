@@ -1,0 +1,127 @@
+body {
+	margin-left: 10%;
+	margin-top: 4%;
+	margin-right: 10%;
+}
+
+h1 {
+	color: #333333;
+	font-family: Lobster, Roboto, Helvetica, sans-serif;
+	font-size: 48px;
+	margin-bottom: 12px;
+	user-select: none;
+}
+
+.nav-link {
+	color: grey;
+	font-family: Oswald, Helvetica, sans-serif;
+	margin-right: 12px;
+	user-select: none;
+	text-decoration: none;
+}
+
+.active {
+	color: #333333;
+}
+
+.nav {
+	margin-bottom: 24px;
+	user-select: none;
+}
+
+.essay {
+	position: relative;
+	margin-right: 12px;
+	float: left;
+	user-select: none;
+}
+
+.essay img {
+	height: 360px;
+	filter: brightness(80%);
+}
+
+.essay div {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+	font-size: 32px;
+	font-family: Roboto, Helvetica, sans-serif;
+	user-select: none;
+}
+
+.book {
+	margin-right: 12px;
+	float: left;
+	user-select: none;
+}
+
+.book img {
+	height: 360px;
+	width: 288px;
+}
+
+.about img {
+	height: 360px;
+	width: 288px;
+	user-select: none;
+	float: left;
+	margin-right: 24px;
+}
+
+h2 {
+	padding-top: 12px;
+	font-family: Roboto, Helvetica, sans-serif;
+	user-select: none;
+	color: #333333;
+}
+
+.about p {
+	font-family: Roboto, Helvetica, sans-serif;
+	width: 700px;
+	color: #666666;
+	user-select: none;
+}
+
+.about a {
+	color: #333333;
+}
+
+.article {
+	line-height: 70px;
+	background-color: white;
+	border-radius: 8px;
+	transition: 100ms;
+}
+
+.article:hover {
+	background-color: #EEEEEE;
+	transition: 100ms;
+}
+
+.article-img {
+	height: 70px;
+	width: 105.117px;
+	border-radius: 8px;
+	float: left;
+	margin-right: 12px;
+	user-select: none;
+}
+
+.title {
+	font-family: Roboto, Helvetica, sans-serif;
+	font-size: 24px;
+	user-select: none;
+}
+
+.title a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.buttondown {
+	height: 16px;
+}
