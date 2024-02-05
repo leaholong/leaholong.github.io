@@ -64,7 +64,7 @@ h1 {
 	width: 288px;
 }
 
-.about img {
+.portrait {
 	height: 360px;
 	width: 288px;
 	user-select: none;
@@ -124,6 +124,15 @@ h2 {
 
 .icon {
 	height: 16px;
+}
+
+.no-ul {
+	text-decoration: none;
+}
+
+.social {
+	height: 24px;
+	margin-right: 24px;
 }
 
 @media only screen and (max-width: 600px) {
