@@ -94,12 +94,17 @@ h2 {
 	line-height: 70px;
 	background-color: white;
 	border-radius: 8px;
-	transition: 100ms;
+	transition: 150ms;
 }
 
 .article:hover {
 	background-color: #EEEEEE;
-	transition: 100ms;
+	transition: 150ms;
+}
+
+.article:hover .subtitle {
+	opacity: 1;
+	transition: 300ms;
 }
 
 .article-img {
@@ -120,6 +125,12 @@ h2 {
 .title a {
 	text-decoration: none;
 	color: #333333;
+}
+
+.subtitle {
+	color: #888;
+	opacity: 0;
+	transition: 100ms;
 }
 
 .icon {
