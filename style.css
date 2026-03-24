@@ -153,13 +153,16 @@ h2 {
 		filter: brightness(80%);
 	}
 	.article {
-		line-height: 14px;
+		line-height: 20px;
 	}
 	.article-img {
 		display: none;
 	}
 	.title {
 		font-size: 14px;
+	}
+	.subtitle {
+		opacity: 1;
 	}
 	.icon {
 		height: 14px;
