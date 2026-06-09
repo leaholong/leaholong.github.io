@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
 	margin-left: 10%;
 	margin-top: 4%;
@@ -10,6 +12,13 @@ h1 {
 	font-size: 48px;
 	margin-bottom: 12px;
 	user-select: none;
+}
+
+h2 {
+	padding-top: 12px;
+	font-family: Roboto, Helvetica, sans-serif;
+	user-select: none;
+	color: #333333;
 }
 
 .nav-link {
@@ -28,6 +37,8 @@ h1 {
 	margin-bottom: 24px;
 	user-select: none;
 }
+
+/* HOME */
 
 .essay {
 	position: relative;
@@ -53,51 +64,7 @@ h1 {
 	user-select: none;
 }
 
-.book-container {
-	width: 600px;
-}
-
-.book {
-	margin-right: 12px;
-	margin-bottom: 12px;
-	float: left;
-	user-select: none;
-}
-
-.book img {
-	height: 360px;
-	width: 288px;
-}
-
-hr {
-	opacity: 60%;
-}
-
-.portrait {
-	height: 360px;
-	width: 288px;
-	user-select: none;
-	float: left;
-	margin-right: 24px;
-}
-
-h2 {
-	padding-top: 12px;
-	font-family: Roboto, Helvetica, sans-serif;
-	user-select: none;
-	color: #333333;
-}
-
-.about p {
-	font-family: Roboto, Helvetica, sans-serif;
-	width: 700px;
-	color: #666666;
-	user-select: none;
-}
-
-.about a {
-	color: #333333;
-}
+/* WRITING */
 
 .article {
 	line-height: 70px;
@@ -125,13 +92,13 @@ h2 {
 	user-select: none;
 }
 
-.title {
+.article-title {
 	font-family: Roboto, Helvetica, sans-serif;
 	font-size: 24px;
 	user-select: none;
 }
 
-.title a {
+.article-title a {
 	text-decoration: none;
 	color: #333333;
 }
@@ -142,8 +109,83 @@ h2 {
 	transition: 100ms;
 }
 
-.icon {
-	height: 16px;
+/* PHOTOGRAPHY */
+
+.book-container {
+	width: 735px;
+}
+
+.book {
+	margin-right: 12px;
+	margin-bottom: 12px;
+	float: left;
+	user-select: none;
+}
+
+.book img {
+	height: 360px;
+}
+
+.book-info {
+	font-size: 0;
+	opacity: 0;
+	transition: 300ms;
+}
+
+.book-container:hover .book-info {
+	font-size: 16px;
+	transition: 300ms;
+}
+
+.book:hover .book-info {
+	opacity: 1;
+	transition: 300ms;
+}
+
+.book-title {
+	font-family: Roboto, Helvetica, sans-serif;
+	user-select: none;
+	color: #666;
+	text-align: center;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+
+.book-links {
+	font-family: Roboto, Helvetica, sans-serif;
+	user-select: none;
+	color: #333;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.book-links a {
+	color: #333;
+}
+
+hr {
+	opacity: 60%;
+}
+
+/* ABOUT */
+
+.portrait {
+	height: 360px;
+	width: 288px;
+	user-select: none;
+	float: left;
+	margin-right: 24px;
+}
+
+.about p {
+	font-family: Roboto, Helvetica, sans-serif;
+	width: 800px;
+	color: #666666;
+	user-select: none;
+}
+
+.about a {
+	color: #333333;
 }
 
 .no-ul {
@@ -153,33 +195,64 @@ h2 {
 .social {
 	height: 24px;
 	margin-right: 24px;
+	margin-top: 6px;
 }
 
+/* MOBILE */
+
 @media only screen and (max-width: 600px) {
+	/* HOME */
 	.essay img {
-		width: 288px;
-		height: 288px;
+		width: 100%;
+		height: auto;
 		filter: brightness(80%);
 	}
+	.essay div {
+		font-size: 20px;
+	}
+	/* WRITING */
 	.article {
 		line-height: 20px;
 	}
 	.article-img {
 		display: none;
 	}
-	.title {
-		font-size: 14px;
+	.article-title {
+		font-size: 16px;
 	}
 	.subtitle {
+		display: block;
+		opacity: 1;
+		font-size: 14px;
+	}
+	/* PHOTOGRAPHY */
+	.book-container {
+		width: 100%;
+	}
+	.book img {
+		width: 100%;
+		height: auto;
+	}
+	.book-info {
+		font-size: 16px;
 		opacity: 1;
 	}
-	.icon {
-		height: 14px;
-	}
+	/* ABOUT */
 	.about img {
+		width: 100%;
+		height: auto;
 		margin-bottom: 24px;
 	}
 	.about p {
-		width: 300px;
+		width: 100%;
+	}
+	.social {
+		height: 24px !important;
+		width: auto !important;
+		margin-right: 24px !important;
+		margin-top: 6px !important;
+	}
+	.tumblr {
+		width: 16px;
 	}
 }
