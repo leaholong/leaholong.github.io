@@ -17,9 +17,10 @@ h1 {
 h2 {
 	padding-top: 12px;
 	user-select: none;
-	font-family: "Inconsolata", monospace;
-	font-weight: 400;
-	letter-spacing: 3px;
+	font-family: Oswald, sans-serif;
+	font-size: 22px;
+	font-weight: 250;
+	letter-spacing: 4px;
 	color: #555;
 }
 
